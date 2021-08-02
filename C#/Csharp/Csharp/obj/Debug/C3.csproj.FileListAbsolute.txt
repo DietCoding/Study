@@ -1,0 +1,7 @@
+C:\Users\juwan\Downloads\GitHub\Study\C#\Csharp\C3\bin\Debug\C3.exe.config
+C:\Users\juwan\Downloads\GitHub\Study\C#\Csharp\C3\bin\Debug\C3.exe
+C:\Users\juwan\Downloads\GitHub\Study\C#\Csharp\C3\bin\Debug\C3.pdb
+C:\Users\juwan\Downloads\GitHub\Study\C#\Csharp\C3\obj\Debug\C3.csprojAssemblyReference.cache
+C:\Users\juwan\Downloads\GitHub\Study\C#\Csharp\C3\obj\Debug\C3.csproj.CoreCompileInputs.cache
+C:\Users\juwan\Downloads\GitHub\Study\C#\Csharp\C3\obj\Debug\C3.exe
+C:\Users\juwan\Downloads\GitHub\Study\C#\Csharp\C3\obj\Debug\C3.pdb
