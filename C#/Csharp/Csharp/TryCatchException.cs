@@ -7,7 +7,7 @@ using System.IO;
 
 class TryCatchException
 {
-    static void Main(string[] args)
+    static void main(string[] args)
     {
         try
         {

@@ -21,7 +21,7 @@ public class MyList
 
 class Yield
 {
-    static void Main(string[] args)
+    static void main(string[] args)
     {
         var list = new MyList();
 

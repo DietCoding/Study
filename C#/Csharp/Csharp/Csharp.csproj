@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Delegate.cs" />
+    <Compile Include="Event.cs" />
+    <Compile Include="FlagsEnum.cs" />
+    <Compile Include="MethodParameter.cs" />
+    <Compile Include="NameSpace.cs" />
+    <Compile Include="PreProcessor.cs" />
+    <Compile Include="Struct.cs" />
     <Compile Include="TryCatchException.cs" />
     <Compile Include="YieldInuemerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
