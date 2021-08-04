@@ -9,7 +9,8 @@ class Event
     class Handler
     {
         //이벤트 정의
-        public event EventHandler PrintHandler       
+        //이벤트는 =로 할당할 수 없고 +=, -=만 가능하다.
+        public event EventHandler PrintHandler;    
 
         public void PrintLine()
         {

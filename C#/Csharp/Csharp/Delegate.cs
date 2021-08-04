@@ -24,8 +24,10 @@ class Delegate
     void Perform()
     {
         Dele2 dele2 = new Dele2(AddDele);
+        //=dele2.Invoke(100);
         dele2(100);
         dele2 = SubDele;
+        //=dele2.Invoke(100);
         dele2(100);
     }
 
