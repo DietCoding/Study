@@ -44,11 +44,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnonymousMethod.cs" />
+    <Compile Include="AnonymousType.cs" />
     <Compile Include="AsIsOperator.cs" />
+    <Compile Include="AsyncAwait.cs" />
     <Compile Include="Delegate.cs" />
+    <Compile Include="DynamicType.cs" />
     <Compile Include="Event.cs" />
+    <Compile Include="ExtensionMethod.cs" />
     <Compile Include="FlagsEnum.cs" />
     <Compile Include="Indexer.cs" />
+    <Compile Include="Lambda.cs" />
     <Compile Include="MethodParameter.cs" />
     <Compile Include="NameSpace.cs" />
     <Compile Include="PreProcessor.cs" />
