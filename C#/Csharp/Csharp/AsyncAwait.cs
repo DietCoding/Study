@@ -8,26 +8,23 @@ using System.Threading.Tasks;
 class AsyncAwait
 {
     //async의 리턴타입은 Task<Tresult>(리턴값o) Task(리턴값x)
-    //await은 Task가 끝날때까지 기다렸다가 완료후 다음 실행문부터 실행한다
+    //await은 Task가 끝날때까지 기다렸다가 완료후 다음  문장부터 실행한다
 
-    static void Main(string[] args)
+    static void main(string[] args)
     {
-        AsyncAwait a = new AsyncAwait();
-        Console.WriteLine("Main:" + Thread.CurrentThread.ManagedThreadId);
+        AsyncAwait a = new AsyncAwait();      
         a.Run();
+        //종료 방지
         Console.ReadLine();
     }
     private async void Run()
     {
         //비동기로 도는 task1
         var task1 = Task.Run(() => LongCalcAsync(10));
-        Console.WriteLine(SynchronizationContext.Current);
-        //task1 끝나면 결과치를 sum에 할당 
+        //LongCalcAsync 리턴값을 sum에 저장
         int sum = await task1;
         //Worker Thread에서 실행
         Console.WriteLine(sum);
-        Console.WriteLine(Thread.CurrentThread.ManagedThreadId);
-
     }
     private int LongCalcAsync(int times)
     {
@@ -35,7 +32,8 @@ class AsyncAwait
         for(int i = 0; i < times; i ++)
         {
             result += i;
-            Thread.Sleep(1000);
+            Console.WriteLine(result);
+            Thread.Sleep(100);
         }
         return result;
     }

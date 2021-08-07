@@ -47,6 +47,13 @@
     <Compile Include="AnonymousType.cs" />
     <Compile Include="AsIsOperator.cs" />
     <Compile Include="AsyncAwait.cs" />
+    <Compile Include="DataStructure\Array.cs" />
+    <Compile Include="DataStructure\DynamicArray.cs" />
+    <Compile Include="DataStructure\HashTable.cs" />
+    <Compile Include="DataStructure\LinkedList.cs" />
+    <Compile Include="DataStructure\Queue.cs" />
+    <Compile Include="DataStructure\Stack.cs" />
+    <Compile Include="DataStructure\Tree.cs" />
     <Compile Include="Delegate.cs" />
     <Compile Include="DynamicType.cs" />
     <Compile Include="Event.cs" />
