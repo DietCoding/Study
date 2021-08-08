@@ -48,8 +48,11 @@
     <Compile Include="AsIsOperator.cs" />
     <Compile Include="AsyncAwait.cs" />
     <Compile Include="DataStructure\Array.cs" />
+    <Compile Include="DataStructure\BinarySearchTree.cs" />
     <Compile Include="DataStructure\DynamicArray.cs" />
+    <Compile Include="DataStructure\Graph.cs" />
     <Compile Include="DataStructure\HashTable.cs" />
+    <Compile Include="DataStructure\Heap.cs" />
     <Compile Include="DataStructure\LinkedList.cs" />
     <Compile Include="DataStructure\Queue.cs" />
     <Compile Include="DataStructure\Stack.cs" />

@@ -33,7 +33,7 @@ public class BinaryTree<T>
 
 class BinaryTreeProgram
 { 
-    static void Main(string[] args)
+    static void main(string[] args)
     {
         BinaryTree<int> bTree = new BinaryTree<int>();
         bTree.Root = new BinaryTreeNode<int>(1);
